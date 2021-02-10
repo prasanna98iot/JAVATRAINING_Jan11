@@ -1,0 +1,52 @@
+body{
+text-align:center;
+background:orange;
+
+}
+::placeholder
+{
+opacity:0.5;
+}
+input[type=text],[type=password],[type=button],[type=reset],[type=tel],[type=date]
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-family:Arial Unicode MS;
+ font-size:20px;
+}
+input[type=text]:hover,[type=password]:hover,[type=tel]:hover,[type=date]:hover
+{
+background-color:#ADD8E6;
+}
+input[type=submit]:hover,[type=button]:hover,[type=reset]:hover
+{
+background-color:#FFFF66;
+opacity:1px;
+}
+
+
+input[type=submit]
+{
+ width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-family:Arial Unicode MS;
+ font-size:20px;
+border-radius:5px;
+}
+
+
+
+table
+{
+margin-left:auto;
+margin-right:auto;
+margin-top:50px;
+margin-bottom:auto;
+font-family:Arial Unicode MS;
+font-size:20px;
+border: 2px solid green;
+-webkit-box-shadow: rgb(123,144,120) 8px 8px 10px;
+}
+
