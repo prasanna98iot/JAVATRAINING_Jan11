@@ -1,4 +1,3 @@
-
 <html>
 <head>
 <title>Passport Validation Form</title>
@@ -17,7 +16,7 @@ text-align:left;
 </style>
 </head>
 <body>
-
+<form>
 <table>
 <tr>
 <td>Online Passport Registration at Indian Missions/Posts for NRI's.</td>
@@ -65,11 +64,11 @@ text-align:left;
 
 <tr>
 <td></td>
-<td>Names should be in ful Initials and titles such as Mr., Mrs., Dr., etc are not allowed.</td>
+<th colspan=2><pre style="color:red; font-family:Calibri;font-size:15px;">Names should be in full Initials and titles such as Mr., Mrs., Dr., etc are not allowed.</pre></th>
 </tr>
 
 <tr>
-<td style="text-align:left; color:red;"colspan=2>If you have ever changed your name click the box <input type=checkbox> and indicate previous Name(s) in full.</td>
+<th colspan=2><pre style="color:red; font-family:Calibri;font-size:15px;">If you have ever changed your name click the box <input type=checkbox> and indicate previous Name(s) in full.</pre></th>
 </tr>
 </!table>
 
@@ -95,28 +94,28 @@ text-align:left;
 
 <tr>
 <td>Place of Birth</td>
-<td><input type=text></td>
+<td id=c2><input type=text></td>
 <td>District/Country</td>
 <td><input type=text></td>
 </tr>
 
 <tr>
 <td>Qualification</td>
-<td><input type=text></td>
+<td id=c2 ><input type=text></td>
 <td>Profession</td>
 <td><input type=text></td>
 </tr>
 
 <tr>
 <td>Visible Mark</td>
-<td><input type=text></td>
+<td id=c2 ><input type=text></td>
 <td>Height(cms)</td>
 <td><input type=number min=50 max=1000></td>
 </tr>
 
 <tr>
 <td>Color of Eyes</td>
-<td><input type=text></td>
+<td id=c2 ><input type=text></td>
 <td>Color of Hair</td>
 <td><input type=text></td>
 </tr>
@@ -130,32 +129,32 @@ text-align:left;
 
 <tr>
 <td>Address to be printed in Passport</td>
-<td><input type=text></td>
+<td id=c2 ><input type=text></td>
 <td>Other Address</td>
 <td><input type=text></td>
 </tr>
 
 <tr>
 <td>Phone No</td>
-<td><input type=tel></td>
+<td id=c2 ><input type=tel></td>
 <td>Mobile No</td>
 <td><input type=tel></td>
 </tr>
 
 <tr>
 <td>Email Address</td>
-<td><input type=email></td>
+<td id=c2 ><input type=email></td>
 </tr>
 </!table>
 
 <!table>
 <tr>
-<td id=red>Applicant's Family Information (All Nams should be in full Initials and titles such as Mr., Mrs., Dr etc are not allowed).</td>
+<th colspan=2><pre style="color:red; font-family:Calibri;font-size:15px;">Applicant's Family Information (All Nams should be in full Initials and titles such as Mr., Mrs., Dr etc are not allowed).</pre></th>
 </tr>
 
 <tr>
 <td>Marital Status</td>
-<td><select>
+<td id=c2 ><select>
 <option selected="selected">Default</option>
 <option> Married </option>
 <option> Unmarried </option>
@@ -165,27 +164,27 @@ text-align:left;
 
 <tr>
 <td>Spouse Name</td>
-<td><input type=text></td>
+<td id=c2  ><input type=text></td>
 </tr>
 
 <tr>
 <td>Spouse's Nationality</td>
-<td><input type=text></td>
+<td id=c2><input type=text></td>
 </tr>
 
 <tr>
 <td>Father's Name</td>
-<td><input type=text></td>
+<td id=c2 ><input type=text></td>
 </tr>
 
 <tr>
 <td>Father's Birth Country</td>
-<td><input type=text></td>
+<td id=c2 ><input type=text></td>
 </tr>
 
 <tr>
 <td rowspan=2>Nationality of Father at the time of applicant's birth</td>
-<td><input type=text></td>
+<td rowspan=2 id=c2><input type=text></td>
 </tr>
 
 <tr>
@@ -195,12 +194,12 @@ text-align:left;
 
 <tr>
 <td>Mother's Birth Country</td>
-<td><input type=text></td>
+<td id=c2><input type=text></td>
 </tr>
 
 <tr>
 <td>Nationality of Mother at the time of applicant's birth</td>
-<td><input type=text></td>
+<td id=c2><input type=text></td>
 </tr>
 
 
@@ -209,27 +208,34 @@ text-align:left;
 </tr>
 
 <tr>
-<td id=red>
+<th colspan=2><pre style="color:red; font-family:Calibri;font-size:15px;">
 If you have held a passport or hold a passport at present, click this box <input type=checkbox> and fill the details below.</td>
-</td>
+</pre></th>
 </tr>
 
 <tr>
 <td>Old Existing Passport No</td>
-<td><input type=text></td>
+<td id=c2><input type=text></td>
 <td>Issue Date</td>
 <td><input type=date></td>
 </tr>
 
 <tr>
 <td>Place of Issue</td>
-<td><input type=text></td>
+<td id=c2><input type=text></td>
 <td>File Number</td>
 <td><input type=text></td>
 </tr>
 
+<tr><td></td></tr>
+<tr><td></td></tr>
 
+<tr>
+<td><input type=submit></td>
+<td><input type=reset></td>
+</tr>
 
 </table>
+</form>
 </body>
 <html>
